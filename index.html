@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maxion Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        body {
+            height: 100vh;
+            font-family: "Karla", serif;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
+            position: relative;
+            background-image: url(https://images.unsplash.com/photo-1483086431886-3590a88317fe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGF1cm9yYXxlbnwwfHwwfHx8MA%3D%3D);
+            background-size: cover;
+            background-position: center;
+        }
+
+        section {
+            display: grid;
+            place-items: center;
+            position: absolute;
+            inset: 0;
+            overflow-y: auto;
+        }
+
+        section main {
+            padding: 100px 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 100%;
+            max-width: 600px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section img {
+            width: 100px;
+            border-radius: 50%;
+            aspect-ratio: 1;
+            box-shadow:0 0 10px 5px silver;
+        }
+
+        section main h2 {
+            font-weight: 600;
+            color: white;
+            text-shadow: 0 0 10px silver, 0 1px 2px rgb(255, 255, 255);
+        }
+
+        section main a{
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid white;
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            gap: 20px;
+            transition: 0.3s;
+        }
+
+        section main a:hover {
+            background-color: rgb(255, 255, 255);
+            color: rgb(126, 126, 126);
+        }
+
+        section main a i {
+            font-size: 1.2em;
+        }
+
+        section footer  {
+            color: white;
+            font-size: 0.7em;
+            padding: 20px;
+            text-shadow: 0 0 10px silver;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <section>
+        <main>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlVeY_YEv_M-Z0JutrTjOHTvtUUNm_iyVEpg&s" alt="well">
+            <h2>Muhammad Azam Izzatulhaq</h2>
+            <a href=""><i class="fa-brands fa-instagram"></i> Instagram</a>
+            <a href=""><i class="fa-brands fa-youtube"></i> Youtube</a>
+            <a href=""><i class="fa-brands fa-whatsapp"></i> Whatsapp</a>
+        </main>
+        <footer>
+            Copyright | Maiiyoo
+        </footer>
+    </section>
+</body>
+</html>
